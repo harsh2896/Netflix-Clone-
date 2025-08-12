@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(../assets/image.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: max(1900px, 100px);
+}
+
+.box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: relative;
+}
+
+.navbar img {
+    width: 150px;
+    height: auto;
+}
+
+.navbar {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80vw;
+    padding: 5px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.lines {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    font-weight: bolder;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.lines :nth-child(2) {
+    font-size: small;
+
+}
+
+.SignIn {
+    background-color: red;
+}
+
+
+
+.inputBox input {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(236, 231, 231);
+}
+
+.button1 {
+    background-color: rgb(230, 9, 9);
+    border: 1px solid red;
+    border-radius: 3px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    width: 120px;
+    padding: 10px;
+
+}
+
+
+.twoBox {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    margin: auto;
+}
+
+/* yha hm log ek background set krenge balck colur ka  */
+.bigBlackBox {
+    position: relative;
+    background-color: black;
+    width: 100vw;
+    height: auto;
+}
+
+/* sepration line  */
+.sepration {
+    height: 10px;
+    width: 80vw;
+    background-color: gray;
+    margin: 0 auto;
+    border-radius: 50%;
+
+}
+
+/* <!-- ab ham log trending now likhne ja rhe hai  */
+#trendingNow {
+    font-weight: bold;
+    color: white;
+    margin-left: 15vw;
+}
+
+/* sbhi trending images ka design  */
+.allTrendings {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.wednesday {}
+
+.raid2 {}
+
+.greatIndiaKapil {}
+
+.squidGame {}
+
+.MandalaMurders {}
+
+.AapJaisaKoi {}
+
+.Jaat {}
+
+.HIT-TheThirdCase {}
+
+.OhoEnthanBaby {}
+
+.Chhaava {}
+
+.numbers {
+    position: absolute;
+    transform: translateY(150px);
+    margin-left: -200px;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+
+.numbers h1 {
+    color: black;
+    -webkit-text-stroke: 3px white;
+    font-size: 120px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Morereasonstojoin {
+    font-weight: bolder;
+    margin: 50px;
+    color: black;
+}
+
+.Morereasonstojoin {
+    color: black;
+}
+
+/* ab yha se cards design hoga */
+.allcards {
+    display: flex;
+    justify-content: center;
+    /* horizontally center */
+    align-items: center;
+    /* vertically center */
+    gap: 20px;
+    /* cards ke beech gap */
+    margin: 0 auto;
+    /* container ko center karega */
+    padding: 20px;
+}
+
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    color: white;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(21, 21, 68);
+}
+
+.questionBoxes {
+    padding: 30px;
+}
+
+.firstQuestionBox {
+    border: 2px solid black;
+    background-color: rgb(46, 44, 44);
+    width: 80vw;
+    height: 50px;
+    margin-bottom: 5px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+}
+
+/* here are the css of re email section */
+.ready {
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.reCreateButtons {
+    display: flex;
+    gap: 10px;
+    padding-left: 50px;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-content: center; */
+    /* padding: 0 auto; */
+
+}
+
+.reEmailbutton input {
+    width: 60vw;
+    height: 50px;
+    color: rgb(71, 68, 68);
+    background-color: black;
+}
+
+.reStartButton button {
+    width: 25vh;
+    height: 57px;
+    font-size: xx-large;
+    color: white;
+    background-color: red;
+
+}
+
+
+/* here add footr part of this website */
+.footer {
+    padding-left: 100px;
+}
+
+.footer p {
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.footer ul {
+    color: white;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Default laptop/tablet 3 columns */
+    gap: 10px;
+}
+
+/* Mobile view - 1 column */
+@media (max-width: 480px) {
+    .footer ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Tablet view - 3 columns (same as default) */
+@media (min-width: 481px) and (max-width: 1024px) {
+    .footer ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Laptop view - 3 columns */
+@media (min-width: 1025px) {
+    .footer ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.reenglishbutton {
+    width: 80px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    
+}
